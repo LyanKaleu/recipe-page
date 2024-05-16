@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+    body {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-sans-serif {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    background-color: var(--white);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 16px;
+}
+
+section#box-preparation {
+    width: 75%;
+    background-color: var(--rose-white);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+section#box-preparation h3 {
+    color: var(--dark-raspberry);
+    font-weight: bold;
+}
+
+section#box-preparation p {
+    color: var(--dark-charcoal);
+}
+
+section#box-preparation ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+section#box-preparation li::marker {
+    color: var(--dark-raspberry);
+}
+
+h2 {
+    color: var(--nutmeg);
+}
+
+hr {
+    color: var(--light-grey);
+    opacity: calc(50%);
+}
+
+ul#ingredients {
+    list-style-type: disc;
+    padding-left: 18px;
+}
+
+ul#ingredients li::marker {
+    color: var(--nutmeg);
+}
+
+ol#instructions {
+    list-style-type: decimal;
+    padding-left: 18px;
+}
+
+ol#instructions li::marker {
+    color: var(--nutmeg);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid var(--light-grey);
+}
+
+table td {
+    padding: 15px;
+}
+
+.mark-table {
+    color: var(--nutmeg);
+    font-weight: 700;
+}
+
+.attribution { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-charcoal);
+    color: var(--rose-white);
+    font-size: 1.3rem; 
+    text-align: center;
+    height: 50px;
+}
+
+.attribution a { 
+    color: darkgray; 
+    text-decoration: none;
+}
