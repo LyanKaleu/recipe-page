@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     body {
         width: 375px;
     }
@@ -13,6 +13,30 @@
         width: 100%;
         max-width: 1440px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    body {
+        background-color: var(--white);
+        width: 50%;
+        height: auto;
+        border-radius: 20px;
+        padding: 50px;
+        margin: 100px auto;
+        box-sizing: border-box;
+    }
+
+    html {
+        background-color: var(--eggshell);
+    }
+
+    img {
+        border-radius: 20px;
+    }
+
+    .attribution {
+        border-radius: 0 0 20px 20px;
     }
 }
 
@@ -59,6 +83,10 @@ header {
 header img {
     width: 100%;
     height: auto;
+}
+
+main {
+    padding: 0 20px;
 }
 
 p {
