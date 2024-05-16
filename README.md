@@ -127,7 +127,7 @@ body {
 ## Author
 
 - Website - [Lyan Kaleu](https://portfolio-lyankaleu.vercel.app)
-- Frontend Mentor - [@LyanKaleu](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@LyanKaleu](https://www.frontendmentor.io/profile/LyanKaleu)
 - LinkedIn - [Lyan Kaleu](www.linkedin.com/in/lyankaleu)
 
 ## Acknowledgments
